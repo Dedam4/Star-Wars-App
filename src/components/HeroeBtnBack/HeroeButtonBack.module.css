@@ -1,0 +1,24 @@
+.btn_back {
+    text-align: center;
+    color: rgb(255, 251, 0);
+    font-size: 30px;
+
+    text-shadow:
+
+        0 0 17px rgb(251, 255, 0),
+        0 0 15px rgb(251, 255, 0),
+        0 0 21px rgb(251, 255, 0);
+
+
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    left: 20%;
+
+    transition: color .14s linear;
+
+}
+
+.btn_back:hover {
+    color: rgb(204, 201, 16);
+}

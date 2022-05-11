@@ -1,0 +1,17 @@
+.link {
+    margin: 20px;
+
+
+}
+
+.btn_m {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: rgb(255, 251, 0);
+    font-weight: 500;
+
+    background: none;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+}

@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(137, 81, 240, 0.164);
+
+  background-image: url('../src/bgImg/background.jpg');
+  background-repeat: bottom repeat-y;
+  background-size: cover;
+
+  
+}
+p{
+  margin: 0 0 10px 0 ;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.content{
+ 
+  padding: 1.5rem 0;
+}
+.heroes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+
+}
+
+

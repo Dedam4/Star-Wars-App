@@ -1,0 +1,42 @@
+.vehicles {
+    display: grid;
+
+    justify-content: center;
+}
+
+.vehicles__item>p {
+    color: white;
+    font-size: 20px;
+
+
+
+}
+
+.vehicles__item {
+    border: 1px solid white;
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 20px 15px;
+
+
+
+    -webkit-box-shadow: -2px 0px 100px 11px rgba(255, 247, 0, 1);
+    -moz-box-shadow: -2px 0px 100px 11px rgba(255, 247, 0, 1);
+    box-shadow: -2px 0px 100px 11px rgba(255, 247, 0, 1);
+
+}
+
+.vehicles__item:not(:last-child) {
+    margin-right: 3rem;
+
+}
+
+.vehicles__list {
+    display: flex;
+
+}
+
+.vehicles__info {
+    color: rgb(255, 251, 0);
+    
+}

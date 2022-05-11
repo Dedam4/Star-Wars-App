@@ -1,0 +1,35 @@
+.card__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+
+    border: 2px solid white;
+    border-radius: 10px;
+
+
+
+
+    -webkit-box-shadow: -2px 4px 100px -30px rgba(255, 247, 0, 1);
+    -moz-box-shadow: -2px 4px 100px -30px rgba(255, 247, 0, 1);
+    box-shadow: -2px 4px 100px -30px rgba(255, 247, 0, 1);
+}
+
+.card__container>* {
+    color: white;
+
+}
+
+.card__container p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card__info {
+    color: rgb(218, 214, 5);
+
+
+}
+
+.card__title {
+    color: rgb(255, 251, 0);
+}
